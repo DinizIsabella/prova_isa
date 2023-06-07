@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre.css">
+    <title>Sobre</title>
+</head>
+<body>
+    <nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="logo">
+    <a href="index.html">Sobre
+    </a>
+    </div>
+    <ul class="menu-desktop">
+        <li> <a href="index (9).html">home </a> </li>
+        <li> <a href="sobre.html">Sobre</a> </li>
+        <li> <a href="clubes.html">clubes</a> </li>
+        <li> <a href="jogadoras.html">jogadoras</a> </li>
+    </ul>
+    <ul class="menu-mobile">
+       <div class="icon-close" >
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
+       </div>
+        <li> <a href="index (9).html">home</a> </li>
+        <li> <a href="sobre.html">Sobre</a> </li>
+        <li> <a href="clubes.html">clubes</a> </li>
+        <li> <a href="jogadoras.html">Jogadoras</a> </li>
+    </ul>
+    </div>
+      </nav>
+    <section class="banner">
+        <div class="texto">
+            <h1 class="título">Futebol Feminino</h1>
+            <h2>
+                Este site tem como objetivo principal<br>
+                mostrar ao público que as meninas<br>
+                também podem mostrar seus talentos<br>
+                e habilidades dentro de campo. E estara<br>
+                apresentando curiosidade sobre o mundo<br>
+                do futebol feminino.
+            </h2>
+    <div class="botoes">
+        <button class="n-overlay">Saiba Mais</button>
+        <button class="overlay">Inscrever</button>
+    
+    </div>
+        </div>
+    
+    </section>
+        <script>
+            var menuIcon = dicument.querySelector('.menu-icon');
+            var menuMobile = document.querySelector('.menu-mobile'); 
+            var iconClose = document.querySelector('.menu-mobile .icon-close');
+    
+            menuIcon.addEventlistener('click',function(){
+                menuMobile.classList.add('ativo');
+            });
+    
+    
+        </script>
+     
+</body>
+</html>
